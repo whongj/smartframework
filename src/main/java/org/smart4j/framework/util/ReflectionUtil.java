@@ -12,7 +12,7 @@ import java.lang.reflect.Method;
  * 封装java反射相关AP，对外提供更好用的工具方法
  * Created by wanghongjie on 2017/8/28.
  */
-public class ReflectionUtil {
+public final class ReflectionUtil {
     public static final Logger LOGGER = LoggerFactory.getLogger(ReflectionUtil.class);
 
     /**
