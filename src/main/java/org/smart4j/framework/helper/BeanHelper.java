@@ -45,6 +45,21 @@ public final class BeanHelper {
         return (T) BEAN_MAP.get(cls);
     }
 
+    /**
+     * 设置bean实例
+     */
+    public static void setBean(Class<?> cls, Object obj) {
+        BEAN_MAP.put(cls, obj);
+
+    }
+
+
+    /**
+     * 思考：
+     * 这个beanhelper的思想在session、牛客网的视频中出现过很多次
+     *
+     */
+
 
 }
 
