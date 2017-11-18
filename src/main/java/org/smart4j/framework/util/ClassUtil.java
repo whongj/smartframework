@@ -88,6 +88,7 @@ public final class ClassUtil {
 
     private static void addClass(Set<Class<?>> classSet, String packagePath, String packageName) {
         File[] files = new File(packagePath).listFiles(new FileFilter() {
+            @Override
             public boolean accept(File file) {
                 return (file.isFile() && file.getName().endsWith(".class")) || file.isDirectory();
             }

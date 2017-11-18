@@ -5,9 +5,7 @@ import org.smart4j.framework.bean.Data;
 import org.smart4j.framework.bean.Handler;
 import org.smart4j.framework.bean.Param;
 import org.smart4j.framework.bean.View;
-import org.smart4j.framework.helper.BeanHelper;
-import org.smart4j.framework.helper.ConfigHelper;
-import org.smart4j.framework.helper.ControllerHelper;
+import org.smart4j.framework.helper.*;
 import org.smart4j.framework.util.*;
 
 import javax.servlet.ServletConfig;
